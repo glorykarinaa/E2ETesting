@@ -2,8 +2,8 @@ describe('Validate Login Functionality', () => {
 
     it ('Validate login with Valid Credentials', () => {
          cy.visit("https://pensiunq.staging.ittron.co.id/dplk/auth/login")
-         cy.get('#email').type('mandiridplk1@yopmail.com')
-         cy.get('#password').type('Ittronoke354!')
+         cy.get('#email').type('....')
+         cy.get('#password').type('....')
          cy.get('.btn').click()
          cy.get('.welcome').contains('Selamat Datang')
         
