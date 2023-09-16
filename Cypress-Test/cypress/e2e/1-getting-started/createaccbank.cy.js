@@ -2,8 +2,8 @@ describe('Verify user can add a bank account', () => {
 
     it ('Verify fill in the bank account form with valid data', () => {
          cy.visit("https://pensiunq.staging.ittron.co.id/dplk/auth/login")
-         cy.get('#email').type('mandiridplk1@yopmail.com')
-         cy.get('#password').type('Ittronoke354!')
+         cy.get('#email').type('....')
+         cy.get('#password').type('.....')
          cy.get('.btn').click()
          cy.get('.welcome').contains('Selamat Datang')
          cy.get('.sidenav-inner > :nth-child(3) > .sidenav-link').click()
